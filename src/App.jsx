@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1>Controle de Notas e Frequência <img src={'src/assets/icon.png'} /></h1> 
+      <h1>Controle de Notas e Frequência <img src={'/icon.png'} /></h1> 
 
       {/* componente de entrada */}
       <FormularioAluno onAdicionarAluno={adicionarAluno} />
